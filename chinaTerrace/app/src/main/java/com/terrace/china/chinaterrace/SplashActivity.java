@@ -29,7 +29,7 @@ public class SplashActivity extends Activity {
         Animation fadeIn = new AlphaAnimation(0, 1);
         fadeIn.setInterpolator(new DecelerateInterpolator()); //add this
 //        fadeIn.setStartOffset(2000);
-        fadeIn.setDuration(1000);
+        fadeIn.setDuration(2000);
 
         Animation fadeOut = new AlphaAnimation(1, 0);
         fadeOut.setInterpolator(new AccelerateInterpolator()); //and this
